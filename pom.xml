@@ -11,7 +11,6 @@
 
     <modules>
         <module>sparrow-common</module>
-        <module>sparrow-transport</module>
         <module>sparrow-demo</module>
         <module>sparrow-benchmark</module>
         <module>sparrow-registry</module>
@@ -21,6 +20,67 @@
         <module>sparrow-rpc</module>
         <module>sparrow-codec</module>
         <module>sparrow-config</module>
+        <module>sparrow-core</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.dianping.swallow</groupId>
+                <artifactId>sparrow-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.dianping.swallow</groupId>
+                <artifactId>sparrow-transport</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.dianping.swallow</groupId>
+                <artifactId>sparrow-demo</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.dianping.swallow</groupId>
+                <artifactId>sparrow-benchmark</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.dianping.swallow</groupId>
+                <artifactId>sparrow-registry</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.dianping.swallow</groupId>
+                <artifactId>sparrow-extension</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.dianping.swallow</groupId>
+                <artifactId>sparrow-monitor</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.dianping.swallow</groupId>
+                <artifactId>sparrow-rpc</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.dianping.swallow</groupId>
+                <artifactId>sparrow-codec</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.dianping.swallow</groupId>
+                <artifactId>sparrow-config</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.dianping.swallow</groupId>
+                <artifactId>sparrow-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>

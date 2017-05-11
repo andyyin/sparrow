@@ -9,14 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>sparrow-rpc</artifactId>
+    <artifactId>sparrow-core</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.dianping.sparrow</groupId>
-            <artifactId>sparrow-common</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
 
 </project>

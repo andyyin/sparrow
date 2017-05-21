@@ -9,7 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>sparrow-registy-zookeeper</artifactId>
 
+    <groupId>com.dianping.sparrow</groupId>
+    <artifactId>sparrow-registy-zookeeper</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
 
 </project>
